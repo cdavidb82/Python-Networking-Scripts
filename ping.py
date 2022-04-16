@@ -6,7 +6,7 @@ def ping_network():
     ip_net = ipaddress.ip_network(u'10.1.10.0/24')  # Create the network
     all_hosts = list(ip_net.hosts())  # Get all hosts on that network
 
-    info = subprocess.STARTUPINFO() # Hides console window
+    info = subprocess.STARTUPINFO()  # Hides console window
     info.dwFlags /= subprocess.STARTF_USESHOWWINDOW
     info.wShowWindow = subprocess.SW_HIDE
 
