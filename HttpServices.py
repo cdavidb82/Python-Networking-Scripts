@@ -14,3 +14,7 @@ def download(csv_url):
     lines = csv_str.split("\\n")
     for l in lines:
         pp.pprint(l + "\n")
+
+
+if __name__ == '__main__':
+    download(goog_url)
