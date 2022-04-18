@@ -7,7 +7,7 @@ def ping_network():
     all_hosts = list(ip_net.hosts())  # Get all hosts on that network
 
     info = subprocess.STARTUPINFO()  # Hides console window
-    info.dwFlags /= subprocess.STARTF_USESHOWWINDOW
+    info.dwFlags != subprocess.STARTF_USESHOWWINDOW
     info.wShowWindow = subprocess.SW_HIDE
 
     for i in range(len(all_hosts)):
@@ -26,4 +26,9 @@ def ping_network():
 
 
 if __name__ == '__main__':
-    ping_network()
+    print("Program will start pinging network....")
+    try:
+        ping_network()
+    except KeyboardInterrupt:
+        print("Keyboard interrupt")
+        exit(1)
