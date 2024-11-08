@@ -12,12 +12,13 @@ goog_url = 'http://insight.dev.schoolwires.com/HelpAssets/C2Assets/C2Files/C2Imp
 def download(csv_url):
     try:
         with urllib.request.urlopen(csv_url) as response:
-            reader = csv.reader(response)
+            reader = csv.DictReader(response)
             for row in reader:
-                pp.pprint(row)
+                pp.pprint(dict(row))
     except urllib.error.URLError as e:
         print(f"Error: {e}")
-
+    except csv.Error as e:
+        print(f"CSV Error: {e}")
 
 if __name__ == '__main__':
     download(goog_url)
