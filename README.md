@@ -19,7 +19,7 @@ This repository contains a collection of Python scripts designed to simplify and
 * [Contributing Guidelines](#contributing-guidelines)
 * [Feedback and Support](#feedback-and-support)
 * [FAQ](#faq)
-* [Change Log](#change-log)
+* [Change Log](#CHANGELOG.md)
 
 ### Getting Started
 
