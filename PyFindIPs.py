@@ -1,5 +1,5 @@
 # IP Scanner
-import ifaddr
+import ifaddr # type: ignore
 import pprint
 
 def get_network_adapters():
