@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [V0.1.2]
 ### Added
 - Improved changelog formatting for better readability.
 
