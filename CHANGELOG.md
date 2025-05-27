@@ -44,3 +44,13 @@
 ## [2022-04-16]
 ### Initial Commits
 - Multiple initial commits with project setup and basic structure, laying the groundwork for the project's evolution.
+
+## [2022-04-16]
+### Changes
+- update `cryptography` to 44.0.1 for stronger encryption
+- upgrade `setuptools` to 78.1.1 for better package management
+- add `six` to 1.16.0 for compatibility with Python 3.x
+- remove outdated dependencies: `bcrypt`, `future`, `PyNaCl`, `pyserial`
+- update `netmiko` to 4.4.0 for improved SSH capabilities
+- upgrade `textfsm` to 1.1.3 for better IP addressing parsing
+- enable `cSpell` spell checking with custom words: "ifaddr"
