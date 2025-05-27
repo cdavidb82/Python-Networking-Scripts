@@ -1,5 +1,4 @@
-# PyNetworkScripts
-# =================
+# Python Networking Scripts
 ## Python Networking Scripts for Network Engineers
 
 ### Overview
@@ -20,14 +19,6 @@ This repository contains a collection of Python scripts designed to simplify and
 * [Feedback and Support](#feedback-and-support)
 * [FAQ](#faq)
 * [Change Log](#CHANGELOG.md)
-
-### Getting Started
-
-To get started with the scripts, follow these steps:
-
-1. Clone the repository using `git clone https://github.com/username/PyNetworkScripts.git`
-2. Install the required dependencies using `pip install -r requirements.txt`
-3. Read the documentation for each script to understand its usage and configuration
 
 ### Contributing
 
