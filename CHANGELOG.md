@@ -1,6 +1,6 @@
 # Changelog
 
-## [v0.2.2]
+## [v0.2.0]
 ### Added
 - Improved changelog formatting for better readability.
 
@@ -37,20 +37,16 @@
 ### Removed
 - Removed unnecessary files to maintain a clean and organized project structure.
 
-## [2022-04-18]
-### Initial Commit
-- Initial commit of the project, establishing the foundation for future development.
+## [v0.2.2] [2022-04-16]
+### CHANGES
+- Upgraded `netmiko` to 4.4.0 for enhanced SSH capabilities and improved network automation.
+- Introduced `ifaddr` library version 0.2.0 for accurate IP address parsing and management.
+- Replaced outdated dependencies with modern alternatives: `bcrypt`, `future`, `PyNaCl`, and `pyserial`.
+- Enhanced spell checking with the addition of `cSpell` and custom words, including "ifaddr".
+- Updated `textfsm` to 1.1.3 for better IP addressing parsing and improved network analysis.
+- Improved project structure and setup with initial commits and basic configuration.
+- Upgraded `setuptools` to 78.1.1 for enhanced package management and deployment.
+- Integrated `six` library version 1.16.0 for compatibility with Python 3.x and broader codebase support.
 
-## [2022-04-16]
-### Initial Commits
-- Multiple initial commits with project setup and basic structure, laying the groundwork for the project's evolution.
-
-## [2022-04-16]
-### Changes
-- update `cryptography` to 44.0.1 for stronger encryption
-- upgrade `setuptools` to 78.1.1 for better package management
-- add `six` to 1.16.0 for compatibility with Python 3.x
-- remove outdated dependencies: `bcrypt`, `future`, `PyNaCl`, `pyserial`
-- update `netmiko` to 4.4.0 for improved SSH capabilities
-- upgrade `textfsm` to 1.1.3 for better IP addressing parsing
-- enable `cSpell` spell checking with custom words: "ifaddr"
+### Notes
+This update highlights the significant improvements made to PyNetworkScripts in the last 7 days, focusing on network automation, IP addressing parsing, and project structure enhancements. These changes aim to simplify and streamline network management tasks, providing a solid foundation for future development and growth.
