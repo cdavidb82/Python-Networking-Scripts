@@ -1,10 +1,10 @@
 # Changelog
 
-## [v0.2.2]
+## [v0.0.3]
 ### Added
 - Improved changelog formatting for better readability.
 
-## [v0.2.1]
+## [v0.0.2]
 ### Added
 - Implemented input validation and error handling in `server_processes.py` and `show_process.py`.
 - Introduced a main function to orchestrate program flow in the refactored code.
@@ -27,6 +27,7 @@
 - Refactored `sniffingPackets.py` to create a raw socket and handle exceptions, improving network packet sniffing capabilities.
 - Corrected minor typos in changelog entries.
 
+## [v0.0.2]
 ## [2022-11-27]
 ### Added
 - Added `requirements.txt` to manage project dependencies.
@@ -37,15 +38,11 @@
 ### Removed
 - Removed unnecessary files to maintain a clean and organized project structure.
 
-## [2022-04-18]
-### Initial Commit
-- Initial commit of the project, establishing the foundation for future development.
-
+## [v0.0.1]
 ## [2022-04-16]
-### Initial Commits
+### Initial Commit
 - Multiple initial commits with project setup and basic structure, laying the groundwork for the project's evolution.
 
-## [2022-04-16]
 ### Changes
 - update `cryptography` to 44.0.1 for stronger encryption
 - upgrade `setuptools` to 78.1.1 for better package management
